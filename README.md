@@ -16,7 +16,7 @@ cd calculator
 npm install -g connect
 npm install -g serve-static
 
-```
+ ```
 
 Run it
 =========
