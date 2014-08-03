@@ -1,0 +1,88 @@
+body {
+  font-family: tahoma, arial, sans-serif;
+  font-size: 22px;
+}
+.banner {
+  position: relative;
+  top: 7%;
+  border: 1px solid #dedede;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  vertical-align: top;
+}
+.banner .warning {
+  background-image: url('warning_32.png');
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+.banner .txt {
+  position: relative;
+  top: -10px;
+}
+.banner .wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.container {
+  height: 310px;
+  width: 280px;
+  margin: auto;
+  padding-top: 11%;
+}
+.container .tb {
+  background-color: #f5f5f5;
+  border: 1px solid #d1c7ac;
+  width: 260px;
+  color: #333333;
+  padding: 3px;
+  margin-bottom: 8px;
+  font-size: 22px;
+  text-align: right;
+}
+.container .row {
+  clear: left;
+  height: 20%;
+  position: relative;
+  display: block;
+}
+.container .row .ele {
+  display: inline-block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 22%;
+  cursor: pointer;
+}
+.container .row .ele .ele1 {
+  color: #444;
+  position: relative;
+  top: 33%;
+  background-color: #f5f5f5;
+  background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+  border: 1px solid #dedede;
+}
+.container .row .ele .ele1.op {
+  background-image: linear-gradient(top, #4d90fe, #4787ed);
+  background-color: #d6d6d6;
+  border: 1px solid #c6c6c6;
+  color: #444;
+}
+.container .row .ele .ele1.op .txt {
+  left: 28%;
+}
+.container .row .ele .ele1.enter {
+  background-color: #4d90fe;
+  color: #fefefe;
+}
+.container .row .ele .ele1.enter:hover {
+  background-color: #4d90fe;
+}
+.container .row .ele .ele1:hover {
+  background-color: #d6d6d6;
+}
+.container .txt {
+  position: relative;
+  left: 40%;
+}
