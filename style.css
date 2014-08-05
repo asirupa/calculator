@@ -2,30 +2,6 @@ body {
   font-family: tahoma, arial, sans-serif;
   font-size: 22px;
 }
-.banner {
-  position: relative;
-  top: 7%;
-  border: 1px solid #dedede;
-  background-color: #f5f5f5;
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  vertical-align: top;
-}
-.banner .warning {
-  background-image: url('warning_32.png');
-  height: 32px;
-  width: 32px;
-  display: inline-block;
-}
-.banner .txt {
-  position: relative;
-  top: -10px;
-}
-.banner .wrapper {
-  width: 50%;
-  margin: 0 auto;
-}
 .container {
   height: 310px;
   width: 280px;
@@ -40,7 +16,7 @@ body {
 .container .tb {
   background-color: #f5f5f5;
   border: 1px solid #d1c7ac;
-  width: 260px;
+  width: 265px;
   color: #333333;
   padding: 3px;
   margin-bottom: 8px;
