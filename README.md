@@ -5,15 +5,18 @@ A simple calculator that can chain results
 
 It has following features..
 
- - runs on a Node.js web application server
+ - runs on a Node.js web application server; can be made to run on any web server with minimal changes
  - Supports addition, subtraction, division and multiplication
  - Supports clearing the last result to 0
  - User can type to interact with the calculator
+ - Supported in Firefox, Safari, Chrome & IE
  - Supports mobile browsers
- - Written in Coffeescript & Less.js
- - Tested in Firefox, Safarai & Chrome
  - All buttons are clickable
  - Hover effect for buttons
+ 
+About the code..
+
+ - Written in Coffeescript & Less.js
  - Tested using Jasmine unit testing framework
 
 Installation
