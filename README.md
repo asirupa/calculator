@@ -3,6 +3,18 @@ Calculator
 
 A simple calculator that can chain results runs on a Node.js web application server.
 
+It has following features..
+
+ - Supports addition, subtraction, division and multiplication
+ - Supports clearing the last result to 0
+ - User can type to interact with the calculator
+ - Supports mobile browsers
+ - Written in Coffeescript & Less.js
+ - Tested in Firefox, Safarai & Chrome
+ - All buttons are clickable
+ - Hover effect for buttons
+ - Tested using Jasmine unit testing framework
+
 Installation
 =========
 
@@ -18,7 +30,7 @@ npm install -g serve-static
 
  ```
 
-Run it
+Running the application
 =========
 
 Once, the node modules are installed, 
@@ -27,6 +39,16 @@ Once, the node modules are installed,
 - run "node server.js" 
 - Then, load http://localhost:8080/index.html in the browser to use the application.
 
+Running the unit tests
+=========
+
+- move to the folder that contains the source code
+- open jasmine-standalone-2.0.1/SpecRunner.html in any browser
+
+Jasmine Tests
+=========
+
+- can be found in jasmine-standalone-2.0.1/spec/calculatorSpec.js
 
 License
 ----
