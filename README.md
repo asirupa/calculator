@@ -1,10 +1,11 @@
 Calculator
 =========
 
-A simple calculator that can chain results runs on a Node.js web application server.
+A simple calculator that can chain results
 
 It has following features..
 
+ - runs on a Node.js web application server
  - Supports addition, subtraction, division and multiplication
  - Supports clearing the last result to 0
  - User can type to interact with the calculator
