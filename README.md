@@ -35,14 +35,12 @@ Running the application
 
 Once, the node modules are installed, 
 
-- move to the folder that contains the source code
 - run "node server.js" 
 - Then, load http://localhost:8080/index.html in the browser to use the application.
 
 Running the unit tests
 =========
 
-- move to the folder that contains the source code
 - open jasmine-standalone-2.0.1/SpecRunner.html in any browser
 
 Jasmine Tests
